@@ -20,7 +20,7 @@ public class Player {
 	}
 	
 	public void showRecord() {
-		System.out.println("¼±¼ö : "+name+", ±â·Ï: "+record+"ÃÊ");
+		System.out.println("ì„ ìˆ˜ : "+name+", ê¸°ë¡: "+record+"ì´ˆ");
 	}
 }
 

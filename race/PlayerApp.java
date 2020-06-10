@@ -11,7 +11,7 @@ public class PlayerApp {
 			System.out.println("Player: ");
 			String name = scanner.next();
 			player.setName(name);
-			System.out.println("100M ±â·Ï: ");
+			System.out.println("100M ê¸°ë¡: ");
 			int time = scanner.nextInt();
 			player.setRecord(time);
 			players[i] = player;
@@ -34,11 +34,11 @@ public class PlayerApp {
 				ranking[0] = players[2];
 			}	
 		}
-		System.out.println("1µîÀº" + ranking[0].getName());
+		System.out.println("1ë“±ì€" + ranking[0].getName());
 	}
 
 }
 /**
- 			System.out.println(players[0].getname+"ÀÌ ",players[1].getname()+"º¸´Ù ºü¸£´Ù.");
+ 			System.out.println(players[0].getname+"ì´ ",players[1].getname()+"ë³´ë‹¤ ë¹ ë¥´ë‹¤.");
  
  * */
