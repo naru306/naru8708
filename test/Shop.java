@@ -31,8 +31,8 @@ public class Shop {
 	public void sum() {
 		this.sum = this.phone + this.tv + this.computer;
 	}
-	void printStates( ) {
-		System.out.println("이름: " + name + "폰가격: " + phone + "TV가격: " + tv + "컴퓨터가격: " + computer);
+	public void printStates( ) {
+		System.out.println(name + "님, 결재하실 총 금액은 " + sum + "입니다.");
 	}
 	
 }
