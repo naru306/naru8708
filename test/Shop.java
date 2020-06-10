@@ -34,5 +34,5 @@ public class Shop {
 	public void printStates( ) {
 		System.out.println(name + "님, 결재하실 총 금액은 " + sum + "입니다.");
 	}
-	
+
 }
